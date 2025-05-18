@@ -13,8 +13,8 @@ class HomeController extends GetxController {
 
   RxBool isLoading = false.obs;
   // final DriveBackupManager _backupManager = DriveBackupManager(googleDriveService, 'password_manager_backup.json');
-  final _spreadsheetId = '1eXQcPyWOxpj8UBQDmkovGYqaDjUt2jQRluS63atvra0';
-  final _worksheetName = 'Soyon';
+  final _spreadsheetId = 'your id';
+  final _worksheetName = 'your sheet name';
 
   RxString email = "".obs;
 
